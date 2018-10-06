@@ -1,0 +1,65 @@
+﻿
+@{
+    Layout = null;
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+
+
+@using (Html.BeginForm("Upload", "Files", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <h3> Upload </h3>
+    <input multiple id="file-picker" type="file" name="files" value="Browse" />
+
+    <br />
+    <br />
+    
+    <input id="btn-sub" type="submit" value="Upload" />
+    
+    
+    <br />
+    <br />
+
+    <div id="msg"></div>
+
+}
+
+@if(ViewBag.UploadSuccess==true)
+{
+    <span> Upload Completed Successfully </span>
+}
+
+<script>
+    $("#file-picker").change(function () {
+        document.getElementById("btn-sub").disabled = true;
+        var input = document.getElementById('file-picker');
+        var willPass = true;
+        for (var i = 0; i < input.files.length; i++)
+        {
+
+            if (input.files[i].size > 20000) {
+                willPass = false;
+                $("#msg").text(input.files[i].name + " has a big size more than 20 KB")
+                document.getElementById("file-picker").value = "";
+            }
+
+            //koala.jpg, koala.JPG substring(index) lastIndexOf('a') koala.1.jpg
+            if (input.files[i].name.substring(input.files[i].name.lastIndexOf('.') + 1).toLowerCase() !== 'txt')
+            {
+                willPass = false;
+                $("#msg").text(input.files[i].name + " not text file")
+                document.getElementById("file-picker").value = "";
+
+            }
+         
+        }
+        if (willPass) {
+            $("#msg").text("Files will pass")
+            document.getElementById("btn-sub").disabled = false;
+
+        }
+
+       
+    });
+</script>

@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://desktop-6e6php8/MergeFileService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/DatabaseForTask.mdf">
+      <publishTime>10/05/2018 10:27:48</publishTime>
+    </File>
+    <File Include="App_Data/DatabaseForTask_log.ldf">
+      <publishTime>10/05/2018 10:27:48</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/30/2018 07:12:04</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/30/2018 20:32:06</publishTime>
+    </File>
+    <File Include="bin/FinancialFilesMergingPortal.dll">
+      <publishTime>10/05/2018 10:27:47</publishTime>
+    </File>
+    <File Include="bin/FinancialFilesMergingPortal.Services.dll">
+      <publishTime>10/05/2018 10:27:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/30/2018 07:12:02</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/30/2018 07:12:03</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/30/2018 07:12:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/30/2018 07:12:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/30/2018 07:12:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/30/2018 07:12:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/30/2018 07:12:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/30/2018 07:12:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/30/2018 07:12:02</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/30/2018 07:12:04</publishTime>
+    </File>
+    <File Include="Content/blog.html">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/30/2018 07:11:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/30/2018 07:11:58</publishTime>
+    </File>
+    <File Include="Content/contact.html">
+      <publishTime>09/30/2018 07:41:12</publishTime>
+    </File>
+    <File Include="Content/courses.html">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.min.css">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/css/font-awesome.min.css">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/css/owl.carousel.css">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/css/style.css">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/css/style2.css">
+      <publishTime>09/30/2018 19:48:11</publishTime>
+    </File>
+    <File Include="Content/fonts/Futura.woff">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/fonts/Futura1.woff">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/fonts/WEB BASED RESULT PUBLICATION SYSTEM FOR EDUCATION BOARDS.pdf">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/icon-fonts/fontawesome-webfont.eot">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/icon-fonts/fontawesome-webfont.svg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/icon-fonts/fontawesome-webfont.woff">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/icon-fonts/fontawesome-webfont.woff2">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/add.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/authors/1.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/authors/2.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/authors/3.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/authors/4.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/authors/5.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/authors/6.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/authors/7.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/authors/8.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/bg.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/blog/1.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/blog/2.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/blog/3.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/categories/1.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/categories/2.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/categories/3.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/categories/4.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/categories/5.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/categories/6.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/1.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/2.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/3.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/4.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/5.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/6.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/7.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/8.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/f-1.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/f-2.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/courses/single.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/favicon.ico">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/logo.png">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/page-bg/1.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/page-bg/2.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/page-bg/3.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/page-bg/4.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/page-bg/5.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/page-top-bg.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/img/signup-bg.jpg">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/index.html">
+      <publishTime>09/30/2018 08:14:43</publishTime>
+    </File>
+    <File Include="Content/js/bootstrap.min.js">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/js/circle-progress.min.js">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/js/jquery-3.2.1.min.js">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/js/main.js">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/js/map.js">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/js/mixitup.min.js">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/js/owl.carousel.min.js">
+      <publishTime>09/30/2018 07:30:20</publishTime>
+    </File>
+    <File Include="Content/js/script2.js">
+      <publishTime>09/30/2018 19:40:05</publishTime>
+    </File>
+    <File Include="Content/js/validation.js">
+      <publishTime>09/30/2018 20:09:43</publishTime>
+    </File>
+    <File Include="Content/login.html">
+      <publishTime>09/30/2018 08:11:17</publishTime>
+    </File>
+    <File Include="Content/login_register.html">
+      <publishTime>02/10/2018 01:20:41</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/30/2018 07:11:53</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/30/2018 07:11:53</publishTime>
+    </File>
+    <File Include="FinancialFilesService.svc">
+      <publishTime>04/10/2018 23:05:32</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/30/2018 07:11:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/30/2018 07:11:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/30/2018 07:11:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/30/2018 07:11:57</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/30/2018 07:11:53</publishTime>
+    </File>
+    <File Include="img/add.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/authors/1.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/authors/2.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/authors/3.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/authors/4.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/authors/5.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/authors/6.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/authors/7.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/authors/8.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/bg.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/blog/1.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/blog/2.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/blog/3.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/categories/1.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/categories/2.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/categories/3.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/categories/4.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/categories/5.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/categories/6.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/1.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/2.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/3.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/4.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/5.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/6.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/7.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/8.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/f-1.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/f-2.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/courses/single.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/favicon.ico">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/page-bg/1.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/page-bg/2.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/page-bg/3.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/page-bg/4.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/page-bg/5.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/page-top-bg.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="img/signup-bg.jpg">
+      <publishTime>09/30/2018 07:32:02</publishTime>
+    </File>
+    <File Include="Models/DBModel.edmx.diagram">
+      <publishTime>09/30/2018 20:32:16</publishTime>
+    </File>
+    <File Include="Models/LinqToSQL.dbml">
+      <publishTime>03/10/2018 03:45:49</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/30/2018 20:32:14</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/30/2018 07:11:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/30/2018 07:11:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>09/30/2018 07:11:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>09/30/2018 07:11:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>09/30/2018 07:11:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/30/2018 21:33:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/30/2018 21:33:54</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/30/2018 07:12:02</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>09/30/2018 07:12:04</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>09/30/2018 07:12:04</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>09/30/2018 21:33:54</publishTime>
+    </File>
+    <File Include="Views/Files/Upload.cshtml">
+      <publishTime>05/10/2018 00:25:42</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>09/30/2018 07:11:53</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>09/30/2018 07:11:53</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/30/2018 08:24:13</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/30/2018 07:11:53</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>02/10/2018 05:42:10</publishTime>
+    </File>
+    <File Include="Views/User/AddorEdit.cshtml">
+      <publishTime>02/10/2018 01:25:38</publishTime>
+    </File>
+    <File Include="Views/User/Login.cshtml">
+      <publishTime>02/10/2018 01:50:56</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/30/2018 07:11:53</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/30/2018 07:11:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/05/2018 10:27:48</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

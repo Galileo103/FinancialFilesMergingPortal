@@ -1,0 +1,5 @@
+C:\Users\Galileo\documents\visual studio 2013\Projects\FinancialFilesMergingPortal\FinancialFilesMergingPortal.Services\bin\Release\FinancialFilesMergingPortal.Services.dll.config
+C:\Users\Galileo\documents\visual studio 2013\Projects\FinancialFilesMergingPortal\FinancialFilesMergingPortal.Services\bin\Release\FinancialFilesMergingPortal.Services.dll
+C:\Users\Galileo\documents\visual studio 2013\Projects\FinancialFilesMergingPortal\FinancialFilesMergingPortal.Services\bin\Release\FinancialFilesMergingPortal.Services.pdb
+C:\Users\Galileo\documents\visual studio 2013\Projects\FinancialFilesMergingPortal\FinancialFilesMergingPortal.Services\obj\Release\FinancialFilesMergingPortal.Services.dll
+C:\Users\Galileo\documents\visual studio 2013\Projects\FinancialFilesMergingPortal\FinancialFilesMergingPortal.Services\obj\Release\FinancialFilesMergingPortal.Services.pdb
