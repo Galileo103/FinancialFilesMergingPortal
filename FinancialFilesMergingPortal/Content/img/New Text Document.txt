@@ -1,0 +1,16 @@
+import tensorflow as tf
+
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()
+print(sess.run(hello))
+
+
+ָÊָֽם ַבָזּׁׁׂ ֳהÊם ÚַׁÝו ֳהם בז Úבל דהםז דַßֿזהבׂ וםָÞם ַ׃דß דַß Þדׁ
+ָÊָֽם Ê״ָ־ם ״םָ דדßה Êז״ם ַבהַׁ Úבם Þבָם Úװַה ־בַױ ַ׃Êזם
+
+
+ֽ׃ה ַָז ַבדַֽ׃׃ה
+Úַָֿבבו Úדׁ
+־ַבֿ ַדםה
+דױ״Ýם ׃Úםֿֿ
+ָ׃ַד

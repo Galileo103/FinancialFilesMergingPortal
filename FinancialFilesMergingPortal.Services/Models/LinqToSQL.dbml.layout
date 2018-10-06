@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinqToSQL">
+  <DataContextMoniker Name="/LinqToSQLDataContext" />
+  <nestedChildShapes>
+    <classShape Id="92ff11a1-508d-4c0e-a04e-7fea6ed2c77d" absoluteBounds="5.125, 1.25, 2, 2.5401025390625">
+      <DataClassMoniker Name="/LinqToSQLDataContext/InputFinancialFile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ea59e35e-d92e-4eeb-b1ec-4a1cedf2320d" absoluteBounds="5.14, 1.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af8675c9-cfae-472e-a603-48d28d80a6b5" absoluteBounds="2.625, 0.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LinqToSQLDataContext/InputFinancialFilesBatch" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe999f60-b830-498d-9910-d401f86ff951" absoluteBounds="2.64, 1.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6864a034-5e7f-4532-aa87-975d41d4f48e" absoluteBounds="0.5, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/LinqToSQLDataContext/OutputFinancialFile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c13d35a-d8f8-45b3-adc9-eec5c6d07cee" absoluteBounds="0.51500000000000012, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

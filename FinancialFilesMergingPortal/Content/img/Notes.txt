@@ -1,0 +1,53 @@
+WCF Service Library
+
+interface
+
+[ServiceContract]
+
+[OperationContract]
+
+http://desktop-6e6php8/FileService/FileService.svc/meta
+
+
+
+protected byte[] Sign(byte[] data, string certSubject)
+        {
+            // Access Personal (MY) certificate store of current user
+            X509Store my = new X509Store(StoreName.My, StoreLocation.LocalMachine);
+
+            my.Open(OpenFlags.ReadOnly);
+
+            // Find the certificate we'll use to sign
+            RSACryptoServiceProvider csp = null;
+
+            foreach (X509Certificate2 cert in my.Certificates)
+            {
+
+                if (cert.Subject.Contains(certSubject))
+                {
+                    // We found it.
+                    // Get its associated CSP and private key
+                    csp = (RSACryptoServiceProvider)cert.PrivateKey;
+                }
+            }
+            my.Close();
+
+            if (csp == null)
+            {
+
+                throw new Exception("No valid cert was found");
+
+            }
+
+
+            // Hash the data
+            SHA1Managed sha1 = new SHA1Managed();
+
+            //UnicodeEncoding encoding = new UnicodeEncoding();
+            //byte[] data = encoding.GetBytes(text);
+
+            byte[] hash = sha1.ComputeHash(data);
+
+            // Sign the hash
+            return csp.SignHash(hash, CryptoConfig.MapNameToOID("SHA1"));
+        }

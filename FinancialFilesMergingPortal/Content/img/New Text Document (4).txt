@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<!--<configuration>
+  <system.web>
+    <compilation debug="true" targetFramework="4.5" />
+    <httpRuntime targetFramework="4.5" maxRequestLength ="2097151" />
+  </system.web>
+</configuration>-->
+
+<configuration>
+  <system.web>
+    <compilation debug="true" targetFramework="4.5"/>
+    <httpRuntime targetFramework="4.5" maxRequestLength="2097151"/>
+  </system.web>
+  
+  <system.serviceModel>
+    <client>
+      <endpoint address="http://desktop-6e6php8/FileService/FileService.svc"
+        binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IFileService"
+        contract="FileServiceReference.IFileService" name="BasicHttpBinding_IFileService" />
+      <endpoint address="http://desktop-6e6php8/FileService/FileService.svc/mtom"
+        binding="wsHttpBinding" bindingConfiguration="CustomBinding_IFileService"
+        contract="FileServiceReference.IFileService" name="CustomBinding_IFileService" />
+    </client>
+    <serviceHostingEnvironment aspNetCompatibilityEnabled="true"
+      multipleSiteBindingsEnabled="true" />
+    <services>
+      <service name="PlainTextFilesEncryptionPortal.Services.FileService" behaviorConfiguration="debug">
+        <endpoint address="" binding="basicHttpBinding" contract="PlainTextFilesEncryptionPortal.Services.IFileService"/>
+        <endpoint address="mtom" binding="customBinding" bindingConfiguration="httpMTOM" contract="PlainTextFilesEncryptionPortal.Services.IFileService"/>
+        <host>
+          <baseAddresses>
+            <add baseAddress="app"/>
+          </baseAddresses>
+        </host>
+      </service>
+    </services>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="BasicHttpBinding_IFileService" maxBufferPoolSize="2147483647" maxBufferSize="2147483647" maxReceivedMessageSize="2147483647" messageEncoding="Text" >
+          <readerQuotas maxDepth="2000000" maxStringContentLength="2147483647" maxArrayLength="2147483647" maxBytesPerRead="2147483647" maxNameTableCharCount="2147483647" />
+        </binding>
+      </basicHttpBinding>
+      <customBinding>
+        <binding name="httpMTOM">
+          <reliableSession />
+          <mtomMessageEncoding />
+          <httpTransport />
+        </binding>
+      </customBinding>
+      <wsHttpBinding>
+        <binding name="CustomBinding_IFileService" messageEncoding="Mtom">
+          <reliableSession enabled="true" />
+          <security mode="None" />
+        </binding>
+      </wsHttpBinding>
+    </bindings>
+    <behaviors>
+      <serviceBehaviors>
+        <behavior name="debug">
+          <serviceMetadata httpGetEnabled="true" httpGetUrl="meta"/>
+          <serviceDebug includeExceptionDetailInFaults="true"/>
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+  </system.serviceModel>
+
+</configuration>
